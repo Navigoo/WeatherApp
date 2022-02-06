@@ -1,0 +1,46 @@
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: -350px;
+  height: 100vh;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: #9b4dca;
+  color: white;
+  transition: all 0.4s ease-in;
+  padding: 8rem 2rem;
+}
+
+.nav__show {
+  right: 0;
+}
+
+.hamburger-btn {
+  position: fixed;
+  right: 0;
+  color: #9b4dca;
+  font-size: 4rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.fa-times-circle {
+  color: white;
+}
